@@ -50,27 +50,26 @@ I was able to answer the following:
 
 > Which model has a lower loss?
 
->   The closing price model returned a lower loss than the FNG model. 
+>       The closing price model returned a lower loss than the FNG model. 
+
 
 > Which model tracks the actual values better over time?
 
->   The closing price model tracked actual values directionaly better than the FNG model, which was realtively flat.
+>       The closing price model tracked actual values directionaly better than the FNG model, which was realtively flat.
+
 
 > Which window size works best for the model?
 
->   I maintained a window size of ten for consistency but a window size of 1 performed the best.
+>       I maintained a window size of ten for consistency but a window size of 1 performed the best.
 
 
-![](fng.png)
-![](closing.png)
-- - -
 
-### Resources
+Closing Price Model
 
-[Keras Sequential Model Guide](https://keras.io/getting-started/sequential-model-guide/)
+![closing_model.png](Images/closing_model.png)
 
-[Illustrated Guide to LSTMs](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
+FNG Model
 
-[Stanford's RNN Cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+![fng_model.png](Images/fng_model.png)
 
 - - -
