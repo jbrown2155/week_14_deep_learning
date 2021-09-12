@@ -60,6 +60,9 @@ I was able to answer the following:
 
 >   I maintained a window size of ten for consistency but a window size of 1 performed the best.
 
+
+![](fng.png)
+![](closing.png)
 - - -
 
 ### Resources
