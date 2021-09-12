@@ -16,13 +16,11 @@ I completed the following:
 
 ### Files
 
-[Closing Prices Starter Notebook](Starter_Code/lstm_stock_predictor_closing.ipynb)
+[Closing Prices Notebook](lstm_stock_predictor_closing.ipynb)
 
-[FNG Starter Notebook](Starter_Code/lstm_stock_predictor_fng.ipynb)
+[FNG Notebook](lstm_stock_predictor_fng.ipynb)
 
 - - -
-
-## Instructions
 
 ### Prepare the data for training and testing
 
@@ -51,10 +49,16 @@ Finally, using the testing data to evaluate each model and compare the performan
 I was able to answer the following:
 
 > Which model has a lower loss?
->
+
+>   The closing price model returned a lower loss than the FNG model. 
+
 > Which model tracks the actual values better over time?
->
+
+>   The closing price model tracked actual values directionaly better than the FNG model, which was realtively flat.
+
 > Which window size works best for the model?
+
+>   I maintained a window size of ten for consistency but a window size of 1 performed the best.
 
 - - -
 
@@ -67,12 +71,3 @@ I was able to answer the following:
 [Stanford's RNN Cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
 
 - - -
-
-### Hints and Considerations
-
-Experiment with the model architecture and parameters to see which provides the best results, but be sure to use the same architecture and parameters when comparing each model.
-
-For training, use at least 10 estimators for both models.
-
-- - -
-
