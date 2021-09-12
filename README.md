@@ -66,10 +66,10 @@ I was able to answer the following:
 
 Closing Price Model
 
-![closing_model.png](Images/closing_model.png)
+![](closing_model.png)
 
 FNG Model
 
-![fng_model.png](Images/fng_model.png)
+![](fng_model.png)
 
 - - -
